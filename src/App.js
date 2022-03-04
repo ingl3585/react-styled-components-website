@@ -1,12 +1,10 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
+import Home from './pages';
 
 const App = () => {
 	return (
 		<div>
-			<Sidebar />
-			<Navbar />
+			<Home />
 		</div>
 	);
 };
