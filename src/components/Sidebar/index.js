@@ -1,5 +1,14 @@
 import React from 'react';
-import { SidebarContainer, Icon, CloseIcon } from './SidebarElements';
+import {
+	SidebarContainer,
+	Icon,
+	CloseIcon,
+	SidebarWrapper,
+	SidebarMenu,
+	SidebarLink,
+	SideBtnWrap,
+	SidebarRoute,
+} from './SidebarElements';
 
 const Sidebar = () => {
 	return (
