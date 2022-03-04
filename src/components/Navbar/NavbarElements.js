@@ -39,6 +39,10 @@ export const Logo = styled(LinkRRD)`
 	margin-left: 24px;
 	font-weight: bold;
 	text-decoration: none;
+
+	&:hover {
+		color: #ffc118;
+	}
 `;
 
 export const HamburgerMenu = styled.div`
@@ -81,8 +85,8 @@ export const NavLink = styled(LinkRS)`
 	height: 100%;
 	cursor: pointer;
 
-	&:active {
-		border-bottom: 3px solid #01bf71;
+	&:hover {
+		border-bottom: 3px solid #ffc118;
 	}
 `;
 
@@ -97,7 +101,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkRRD)`
 	border-radius: 50px;
-	background: #01bf71;
+	background: #ffc118;
 	white-space: nowrap;
 	padding: 10px 22px;
 	color: #010606;
