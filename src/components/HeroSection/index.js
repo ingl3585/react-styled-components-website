@@ -24,13 +24,13 @@ const HeroSection = () => {
 				<VideoBg autoPlay loop muted src={Video} type='video/mp4' />
 			</HeroBg>
 			<HeroContent>
-				<HeroH1>virtual banking made easy.</HeroH1>
+				<HeroH1>Virtual Banking Made Easy</HeroH1>
 				<HeroP>
-					sign up today and receive $500 in credit towards your next payment.
+					Sign up today and receive $500 in credit towards your first payment.
 				</HeroP>
 				<HeroBtnWrapper>
 					<Button to='sign-up' onMouseEnter={onHover} onMouseLeave={onHover}>
-						get started {hover ? <ArrowForward /> : <ArrowRight />}
+						Get Started {hover ? <ArrowForward /> : <ArrowRight />}
 					</Button>
 				</HeroBtnWrapper>
 			</HeroContent>

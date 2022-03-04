@@ -17,26 +17,26 @@ const Navbar = ({ toggle }) => {
 		<>
 			<Nav>
 				<NavContainer>
-					<Logo to='/'>coinz</Logo>
+					<Logo to='/'>Currents</Logo>
 					<HamburgerMenu onClick={toggle}>
 						<FaBars />
 					</HamburgerMenu>
 					<NavMenu>
 						<NavElements>
-							<NavLink to='about'>about</NavLink>
+							<NavLink to='about'>About</NavLink>
 						</NavElements>
 						<NavElements>
-							<NavLink to='learn'>learn</NavLink>
+							<NavLink to='learn'>Learn</NavLink>
 						</NavElements>
 						<NavElements>
-							<NavLink to='prices'>prices</NavLink>
+							<NavLink to='prices'>Prices</NavLink>
 						</NavElements>
 						<NavElements>
-							<NavLink to='sign-up'>sign up</NavLink>
+							<NavLink to='sign-up'>Sign Up</NavLink>
 						</NavElements>
 					</NavMenu>
 					<NavBtn>
-						<NavBtnLink to='/sign-in'>sign in</NavBtnLink>
+						<NavBtnLink to='/sign-in'>Sign In</NavBtnLink>
 					</NavBtn>
 				</NavContainer>
 			</Nav>
