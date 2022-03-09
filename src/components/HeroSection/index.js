@@ -26,7 +26,8 @@ const HeroSection = () => {
 			<HeroContent>
 				<HeroH1>Virtual Banking Made Easy</HeroH1>
 				<HeroP>
-					Sign up today and receive $500 in credit towards your first payment.
+					Get started today and receive $500 in credit towards your first
+					payment.
 				</HeroP>
 				<HeroBtnWrapper>
 					<Button to='sign-up' onMouseEnter={onHover} onMouseLeave={onHover}>
