@@ -1,11 +1,17 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './pages';
+import SignIn from './pages/signin';
 
 const App = () => {
 	return (
-		<div>
-			<Home />
-		</div>
+		<Router>
+			<Routes>
+				<Route exact path='/' element={<Home />} />
+				<Route exact path='/sign-in' element={<SignIn />} />
+			</Routes>
+		</Router>
 	);
 };
 
