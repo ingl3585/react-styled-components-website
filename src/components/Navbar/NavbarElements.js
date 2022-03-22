@@ -42,6 +42,7 @@ export const Logo = styled(LinkRRD)`
 
 	&:hover {
 		color: #ffc118;
+		transition: all 0.2s ease-in-out;
 	}
 `;
 
